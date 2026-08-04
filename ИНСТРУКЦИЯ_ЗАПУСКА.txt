@@ -1,0 +1,17 @@
+1. Создайте отдельный GitHub-репозиторий, например zhuravushka-delivery-bot.
+2. Загрузите в корень репозитория ВСЕ файлы из этой папки.
+3. В Railway создайте новый сервис из нового репозитория.
+4. Добавьте переменные:
+   BOT_TOKEN = токен @zhuravushka_delivery_bot
+   ADMIN_USERNAME = inminlu
+   DATABASE_PATH = /data/zhuravushka_delivery.db
+   TIMEZONE = Asia/Yakutsk
+5. Создайте и подключите Volume с Mount Path /data.
+6. Дождитесь статуса Online.
+7. Добавьте @zhuravushka_delivery_bot администратором в рабочий чат.
+8. В рабочем чате отправьте /connect_orders.
+9. Затем отправьте /test_order_chat.
+10. В личном чате бота нажмите Start.
+
+Позиции без известной цены скрыты. Чтобы включить их:
+⚙️ Администратор → 📋 Управление товарами → товар → 💰 Изменить цену.
